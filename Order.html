@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Emerald Coffee – Order Online">
+  <meta name="keywords" content="Emerald Coffee, order coffee, Colombian beans">
+  <meta name="author" content="Sofia Rocha">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online | Emerald Coffee</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="products-bg">
+
+  <header>
+    <img src="images/Horizontal Logo.png" alt="Emerald Coffee Logo" class="logo">
+    <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="history.html">Our History</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="order.html">Order Online</a></li>
+    <li><a href="tips.html">Coffee Tips</a></li>
+    <li><a href="reviews.html">Reviews</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main class="order-split">
+    <div class="order-left">
+      <h1>Order Emerald Coffee</h1>
+      <img src="images/Coffee Bag.png" alt="Coffee Bag" class="product-img">
+      <img src="images/Shopping Cart.png" alt="Shopping Cart Icon" class="cart-img">
+    </div>
+
+    <div class="order-right">
+      <form action="https://formbuddy.com" method="POST" class="order-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="product">Select Product:</label>
+        <select id="product" name="product" required>
+          <option value="">-- Choose a Product --</option>
+          <option value="emerald-signature">Emerald Signature</option>
+          <option value="amazon-bold">Amazon Bold</option>
+          <option value="morning-bloom">Morning Bloom</option>
+        </select>
+
+        <label for="notes">Special Requests (Optional):</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <button type="submit" class="btn">Place Order</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Emerald Coffee. All rights reserved.<br>
+    Sofia Rocha – 25/WI (CIS-126-01)<br>
+    Email: <a href="mailto:srocha1@hawkmail.hfcc.edu">srocha1@hawkmail.hfcc.edu</a></p>
+  </footer>
+
+</body>
+</html>
